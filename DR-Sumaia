@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز الدكتورة سمية محمد المفلحي للأسنان | فخامة واحترافية</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">
+                    <span class="logo-gold">د. سمية</span>
+                    <span class="logo-black">المفلحي</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#why-us">لماذا نحن؟</a></li>
+                <li><a href="#before-after">قبل وبعد</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://wa.me/967777777777" class="btn btn-nav">احجز موعدك</a>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+                <h2 class="hero-welcome">مرحباً بكم في مركزنا</h2>
+                <h1 class="hero-title">ابتسامة صحية… بتقنيات حديثة وتجربة علاج مريحة</h1>
+                <p class="hero-description">نقدم لكم في مركز الدكتورة سمية محمد المفلحي للأسنان أرقى معايير العناية الطبية بأحدث التقنيات العالمية في أجواء من الفخامة والراحة التامة.</p>
+                <div class="hero-btns">
+                    <a href="https://wa.me/967777777777" class="btn btn-primary btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> احجز الآن عبر واتساب
+                    </a>
+                    <a href="#services" class="btn btn-secondary">اكتشف خدماتنا</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">خدماتنا</span>
+                <h2 class="section-title">رعاية استثنائية لابتسامتك</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-teeth"></i>
+                    </div>
+                    <h3>تقويم الأسنان</h3>
+                    <p>نقدم أحدث حلول التقويم الشفاف والمعدني لتصحيح اصطفاف الأسنان بفعالية وجمالية.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>زراعة الأسنان</h3>
+                    <p>استعادة أسنانك المفقودة بأمان تام باستخدام أفضل الغرسات العالمية وبأيدي خبراء متخصصين.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                    <h3>تجميل الأسنان</h3>
+                    <p>ابتسامة هوليود، الفينير، واللومينير - نصمم لك الابتسامة التي طالما حلمت بها.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>تنظيف وتلميع</h3>
+                    <p>إزالة الجير والتصبغات العميقة بتقنيات حديثة تمنح أسنانك لمعاناً طبيعياً وصحة مثالية.</p>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-file-medical"></i>
+                    </div>
+                    <h3>علاج العصب</h3>
+                    <p>علاج جذور الأسنان بدون ألم باستخدام أحدث أجهزة الروتاري لضمان دقة ونجاح العلاج.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon-wrapper">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>أسنان الأطفال</h3>
+                    <p>عناية خاصة ومحببة للأطفال في بيئة مريحة تضمن لهم تجربة إيجابية وصحة فموية سليمة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section-padding bg-cream">
+        <div class="container">
+            <div class="why-us-content-wrapper">
+                <div class="why-us-image" data-aos="fade-left">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Dental Clinic">
+                    </div>
+                    <div class="experience-badge">
+                        <span class="years">15+</span>
+                        <span class="text">عاماً من الخبرة</span>
+                    </div>
+                </div>
+                <div class="why-us-text" data-aos="fade-right">
+                    <span class="section-tag">لماذا نحن؟</span>
+                    <h2 class="section-title">نحن نهتم بأدق تفاصيل ابتسامتك</h2>
+                    <p class="section-description">نجمع في مركزنا بين الفن والطب لنقدم لك تجربة علاجية لا تُنسى، مع التركيز التام على راحتك وسلامتك.</p>
+                    
+                    <ul class="why-us-list">
+                        <li>
+                            <div class="list-icon"><i class="fas fa-microscope"></i></div>
+                            <div class="list-text">
+                                <h4>أجهزة حديثة</h4>
+                                <p>نستخدم أحدث التقنيات الرقمية والأشعة ثلاثية الأبعاد لضمان دقة التشخيص.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon"><i class="fas fa-shield-virus"></i></div>
+                            <div class="list-text">
+                                <h4>تعقيم كامل</h4>
+                                <p>نطبق أعلى معايير التعقيم العالمية الصارمة لضمان بيئة طبية آمنة تماماً.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon"><i class="fas fa-user-md"></i></div>
+                            <div class="list-text">
+                                <h4>خبرة عالية</h4>
+                                <p>طاقم طبي متخصص حاصل على أعلى الشهادات العالمية في مختلف تخصصات الأسنان.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-icon"><i class="fas fa-couch"></i></div>
+                            <div class="list-text">
+                                <h4>راحة واهتمام</h4>
+                                <p>تصميم داخلي فاخر وخدمة عملاء متميزة تجعل من زيارتك تجربة مريحة وهادئة.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before / After Section -->
+    <section id="before-after" class="before-after section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">قصص نجاح</span>
+                <h2 class="section-title">نتائج نفخر بها</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="ba-grid">
+                <div class="ba-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="ba-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1593022356769-11f762e25ed9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Before and After 1">
+                        <div class="ba-label before">قبل</div>
+                        <div class="ba-label after">بعد</div>
+                        <div class="ba-overlay">
+                            <h3>تجميل الأسنان الشامل</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="ba-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="ba-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Before and After 2">
+                        <div class="ba-label before">قبل</div>
+                        <div class="ba-label after">بعد</div>
+                        <div class="ba-overlay">
+                            <h3>تقويم الأسنان الشفاف</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding bg-cream">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">آراء العملاء</span>
+                <h2 class="section-title">ماذا يقول مرضانا؟</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"تجربة رائعة جداً، الدكتورة سمية محترفة للغاية والتعامل في المركز قمة في الرقي والنظافة. أنصح الجميع بزيارتهم."</p>
+                    <div class="client-info">
+                        <h4>سارة أحمد</h4>
+                        <span>مراجعة المركز</span>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"أفضل مركز أسنان تعاملت معه، دقة في المواعيد ونتائج مبهرة في تجميل الأسنان. شكراً للفريق الرائع."</p>
+                    <div class="client-info">
+                        <h4>محمد علي</h4>
+                        <span>مراجع المركز</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="contact" class="booking section-padding">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info" data-aos="fade-left">
+                    <span class="section-tag">تواصل معنا</span>
+                    <h2 class="section-title">ابدأ رحلتك نحو ابتسامة مثالية</h2>
+                    <p class="section-description">فريقنا جاهز للرد على استفساراتكم وحجز مواعيدكم في أقرب وقت ممكن.</p>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-mini-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h5>رقم التواصل</h5>
+                                <p>+967 777 777 777</p>
+                            </div>
+                        </div>
+                        <div class="contact-mini-card">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5>ساعات العمل</h5>
+                                <p>السبت - الخميس: 9:00 ص - 9:00 م</p>
+                            </div>
+                        </div>
+                        <div class="contact-mini-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>الموقع</h5>
+                                <p>صنعاء، شارع الستين، عمارة المركز الطبي</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/967777777777" class="btn btn-whatsapp-large">
+                        <i class="fab fa-whatsapp"></i> احجز عبر واتساب الآن
+                    </a>
+                </div>
+                <div class="booking-map" data-aos="fade-right">
+                    <div class="map-placeholder">
+                        <div class="map-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <p>موقعنا على الخريطة</p>
+                        <span>Google Maps Placeholder</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <a href="#">
+                            <span class="logo-gold">د. سمية</span>
+                            <span class="logo-white">المفلحي</span>
+                        </a>
+                    </div>
+                    <p>نحن ملتزمون بتقديم أرقى خدمات طب الأسنان بلمسة من الفخامة والاحترافية.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#hero">الرئيسية</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#why-us">لماذا نحن؟</a></li>
+                        <li><a href="#before-after">قبل وبعد</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>تواصل مباشر</h4>
+                    <p><i class="fas fa-envelope"></i> info@dr-somaya.com</p>
+                    <p><i class="fas fa-phone"></i> +967 777 777 777</p>
+                    <p><i class="fas fa-map-marker-alt"></i> صنعاء، اليمن</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة &copy; 2026 مركز الدكتورة سمية محمد المفلحي للأسنان</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
